@@ -6,6 +6,11 @@
   "keywords": [],
   "repository": "https://github.com/tuvistavie/atomic-chrome-atom",
   "license": "MIT",
+  "activationCommands": {
+    "atom-workspace": [
+      "atomic-chrome:activate"
+    ]
+  },
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
