@@ -34,7 +34,7 @@ module.exports = class WSHandler
     message =
       type: 'updateText'
       payload:
-        text: @editor.getBuffer().lines.join('\n')
+        text: @editor.getBuffer().getLines().join('\n')
     @ws.send JSON.stringify(message)
 
   updateText: (data) ->
